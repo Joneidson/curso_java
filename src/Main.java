@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         String nome = "victor";
         int idade = 28;
-        String cidade = "Salvador-Ba";//
+        String cidade = "Salvador-Ba";
 
         System.out.printf("Olá, seja bem-vindo!!\n");
         System.out.println("Inicio de uma nova jornada, aprendendo Java!!");
