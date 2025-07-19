@@ -2,7 +2,7 @@ import java.util.Locale;
 
 public class Main {
     public static void main(String[] args) {
-        Locale.setDefault(Locale.US); // faz que os separadores saim de , para . !!
+        Locale.setDefault(Locale.US); // faz que os separadores sejam alterados de , para . !!
         String nome = "victor";
         int idade = 28;
         String cidade = "Salvador-Ba";
