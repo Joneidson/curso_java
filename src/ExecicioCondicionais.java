@@ -17,17 +17,16 @@ public class ExecicioCondicionais {
         double PlanoBasicoMinuto = 100;
         double PlanoBasicoValor = 50.00;
         double MinutoExtraValor = 2.00;
-        double MinutosConsumidos;
         double ValorExtra = 0;
         double FaturaTotal = PlanoBasicoValor;
         double MinutoExtra = 0;
-        String nome;
+        int desconto;
         // Entrada de dados
         System.out.print("Olá, digite seu nome para prosseguirmos: ");
-        nome = sc.nextLine();
+        String nome = sc.nextLine();
 
         System.out.print("Olá " + nome + ", quantos minutos você consumiu? ");
-        MinutosConsumidos = sc.nextDouble();
+        double MinutosConsumidos = sc.nextDouble();
         // Lógica condicional
         if (MinutosConsumidos <= PlanoBasicoMinuto) {
             System.out.println("Você está dentro do plano de 100 minutos.");
@@ -36,6 +35,7 @@ public class ExecicioCondicionais {
             MinutoExtra = MinutosConsumidos - PlanoBasicoMinuto;
             ValorExtra = MinutoExtra * MinutoExtraValor;
             FaturaTotal = PlanoBasicoValor + ValorExtra;
+            // Integer valorMaxInteiro = Integer.MAX_VALUE; saber o valor max de um inteiro
 
             System.out.println("Você consumiu " + (int)MinutoExtra + " minutos extras.");
             System.out.printf("Valor dos minutos extras: R$ %.2f%n", ValorExtra);

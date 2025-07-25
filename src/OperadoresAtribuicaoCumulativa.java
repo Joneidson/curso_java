@@ -52,14 +52,14 @@ public class OperadoresAtribuicaoCumulativa {
             System.out.printf("❌ Sua média salarial excede 2 salários mínimos (limite: R$ %.2f).%n", limiteSalarial);
             direitoAoPIS = false;
         }
-        System.out.println("=".repeat(30));
+        System.out.println("=".repeat(35));
         // Resultado final
         if (direitoAoPIS) {
             System.out.println("🥳Parabéns! Você tem direito ao PIS.");
         } else {
             System.out.println("Infelizmente, você NÃO tem direito ao PIS com base nas informações fornecidas.");
         }
-        System.out.println("=".repeat(30));
+        System.out.println("=".repeat(35));
 
         sc.close();
     }
