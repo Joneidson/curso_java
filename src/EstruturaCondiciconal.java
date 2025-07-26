@@ -6,20 +6,15 @@ public class EstruturaCondiciconal {
         Locale.setDefault(Locale.US); // Define separador decimal como ponto
         Scanner sc = new Scanner(System.in);
 
-        // Variáveis
-        String nome;
-        int idade;
-        double renda;
-
         // Entrada de dados
         System.out.println("Digite seu nome:");
-        nome = sc.nextLine();// Aqui como não tem nehum next na frente nao precisa colocar mais uma função sc.next
+        String nome = sc.nextLine();// Aqui como não tem nenhum next na frente não precisa colocar mais uma função sc.next
 
         System.out.println("Digite sua idade:");
-        idade = sc.nextInt();
+        int idade = sc.nextInt();
 
         System.out.println("Digite sua renda:");
-        renda = sc.nextDouble();
+        double renda = sc.nextDouble();
 
         // Verificação de aprovação
         if (renda <= 300.00 && idade >= 18) {
