@@ -15,7 +15,7 @@ Aprender **Java do zero ao avançado**, focando na aplicação prática dos segu
 - [x] 02 - Conceitos de programação  
 - [x] 03 - Introdução à linguagem Java  
 - [X] 04 - Estrutura sequencial  
-- [ ] 05 - Estrutura condicional  
+- [x] 05 - Estrutura condicional  
 - [ ] 06 - Estruturas repetitivas  
 - [ ] 07 - Outros tópicos básicos sobre Java  
 - [ ] 08 - Introdução à Programação Orientada a Objetos  
