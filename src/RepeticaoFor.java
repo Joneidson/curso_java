@@ -16,8 +16,8 @@ public class RepeticaoFor {
         sc.nextLine();
         int soma = 0;
 
-        for (int i=0; i<N; i++){
-            System.out.println("Digite um número: " + (i+1) );
+        for (int i=0; i<N; i++){ /* mesma coisa de i=i+1 que acrescenta no valor da contagem do for para a condição de parada */
+            System.out.println("Digite um número: " + (i+1) ); // aqui é um mostrador de contagem pega quantos números tem e coloca mais para mostrar em qual sentença esta o número
             int x = sc.nextInt();
             soma += x;
         }
