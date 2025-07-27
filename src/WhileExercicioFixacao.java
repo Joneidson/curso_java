@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ExercicioFixacaoWhile {
+public class WhileExercicioFixacao {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int x = 0;
