@@ -23,6 +23,15 @@ public class RepeticaoFor {
         }
         System.out.println("o valor total dos números é: " + soma);
 
+        System.out.println("Qual o número será a contagem regressiva ?");
+        int N2 = sc.nextInt();
+        sc.nextLine();
+        int soma1=0;
+        for (int i=N2; i>0; i--) {
+            System.out.println("Contagem i:" + i);
+        }
+        System.out.println("Fim da contagem!!");
+
         int y ;
         int soma2 = 0;
         do {
