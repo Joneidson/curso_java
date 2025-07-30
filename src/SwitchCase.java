@@ -4,9 +4,9 @@ public class SwitchCase {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        String continuar;
+        String continuar = "";
 
-        do {
+        while (!continuar.equals("N")) {
             System.out.println("\n=============== MENU ===============");
             System.out.println("1 - Pizza  2 - Hambúrguer  3 - Salada");
             System.out.print("Escolha sua opção: ");
@@ -83,7 +83,7 @@ public class SwitchCase {
             System.out.print("\nDeseja fazer um novo pedido? (S/N): ");
             continuar = sc.nextLine().toUpperCase();
 
-        } while (continuar.equals("S"));
+        }
 
         System.out.println("Obrigado, até a próxima!");
         sc.close();
