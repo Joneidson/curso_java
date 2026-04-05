@@ -11,7 +11,7 @@ Aprender **Java do zero ao avançado**, focando na aplicação prática dos segu
 - 🌐 **Versionamento com Git e GitHub** — commits, branches, push, pull
 
 ## 📝 Progresso no Curso (Checklist)
-- [ ] 01 - Introdução  
+- [ x] 01 - Introdução  
 - [ ] 02 - Conceitos de programação  
 - [ ] 03 - Introdução à linguagem Java  
 - [ ] 04 - Estrutura sequencial  
