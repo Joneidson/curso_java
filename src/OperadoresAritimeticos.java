@@ -1,5 +1,3 @@
-package Exercicios;
-
 import java.util.Scanner;
 /*
 %d → número inteiro
