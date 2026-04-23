@@ -4,23 +4,23 @@ public class Pet {
 
     private final String name;
 
-    private boolean clean ;
+    private boolean petClean;
 
     public Pet(String name) {
         this.name = name;
-        this.clean = false;
+        this.petClean = false;
     }
 
     public String getName() {
         return name;
     }
 
-    public boolean isClean() {
-        return clean;
+    public boolean isPetClean() {
+        return petClean;
     }
 
-    public void setClean(boolean clean) {
-        this.clean = clean;
+    public void setPetClean(boolean petClean) {
+        this.petClean = petClean;
     }
 
 }
