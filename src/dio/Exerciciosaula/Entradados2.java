@@ -1,3 +1,5 @@
+package dio.Exerciciosaula;
+
 import java.util.Locale;
 import java.util.Scanner;
 

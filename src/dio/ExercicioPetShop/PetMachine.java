@@ -82,11 +82,13 @@ public class PetMachine {
     public void limparMaquina() { // metodo limpar maquina
         if (agua < 3 || shampoo < 1) {
             System.out.println("Recursos insuficientes para limpar a máquina");
+        }else{
+            this.agua -= 3;
+            this.shampoo -= 1;
+            this.clean = true;
+            System.out.println("Máquina limpa");
         }
-        this.agua -= 3;
-        this.shampoo -= 1;
-        this.clean = true;
-        System.out.println("Máquina limpa");
+
     }
 
 
