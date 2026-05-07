@@ -1,6 +1,4 @@
-package dio;
-
-import java.util.Scanner;
+package dio.Exerciciosaula;
 
 public class Main {
 

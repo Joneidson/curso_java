@@ -1,4 +1,4 @@
-package dio;
+package dio.Exerciciosaula;
 
 import java.util.Scanner;
 

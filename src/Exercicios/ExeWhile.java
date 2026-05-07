@@ -1,6 +1,8 @@
+package Exercicios;
+
 import java.util.Scanner;
 
-public class While {
+public class ExeWhile {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
