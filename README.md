@@ -12,14 +12,14 @@ Aprender **Java do zero ao avançado**, focando na aplicação prática dos segu
 
 ## 📝 Progresso no Curso (Checklist)
 - [x] 01 - Introdução  
-- [ ] 02 - Conceitos de programação  
-- [ ] 03 - Introdução à linguagem Java  
-- [ ] 04 - Estrutura sequencial  
-- [ ] 05 - Estrutura condicional  
-- [ ] 06 - Estruturas repetitivas  
-- [ ] 07 - Outros tópicos básicos sobre Java  
-- [ ] 08 - Introdução à Programação Orientada a Objetos  
-- [ ] 09 - Construtores, this, sobrecarga, encapsulamento  
+- [x] 02 - Conceitos de programação  
+- [x] 03 - Introdução à linguagem Java  
+- [x] 04 - Estrutura sequencial  
+- [x] 05 - Estrutura condicional  
+- [x] 06 - Estruturas repetitivas  
+- [x] 07 - Outros tópicos básicos sobre Java  
+- [x] 08 - Introdução à Programação Orientada a Objetos  
+- [x] 09 - Construtores, this, sobrecarga, encapsulamento  
 - [ ] 10 - Comportamento de memória, arrays, listas  
 - [ ] 11 - Tópicos especiais em Java: data-hora  
 - [ ] 12 - Bônus: Git e GitHub  
